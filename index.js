@@ -15,13 +15,13 @@ fis.config.merge({
   // 脚手架配置
   // fis-components/jquery@latest
   // fis-component/jquery@1.9.1
-  // efit init <github username>/<github project>@<version>
-  // efit init [efit-scaffold/]<name>@<version>
+  // iloka-fis init <github username>/<github project>@<version>
+  // iloka-fis init [rosettech/]<name>@<version>
   scaffold: {
     // 默认仓库类型 github
     type: 'github',
-    // 脚手架仓库名称 https://github.com/efit-scaffold
-    namespace: 'efit-scaffold'
+    // 脚手架仓库名称 https://github.com/rosettech
+    namespace: 'rosettech'
   },
   // 项目配置
   project: {

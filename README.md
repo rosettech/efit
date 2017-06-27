@@ -1,12 +1,12 @@
-# efit (内测版)
+# iloka-fis (内测版)
 
 易上手的前端构建工具，基于 fis3，面向业务项目和业务组件，支持simple、webpage、webapp、component四种模式。
 
 ## 安装方法
 
 ```bash
-npm install -g efit
-efit -v
+npm install -g iloka-fis
+iloka-fis -v
 ```
 
 ## 使用方法
@@ -15,18 +15,18 @@ efit -v
 
 ### 脚手架使用
 
-脚手架请查看 https://github.com/efit-scaffold
+脚手架请查看 https://github.com/rosettech
 
 使用规则：
 ```
-efit init <github username>/<github project>@<version>
+iloka-fis init <github username>/<github project>@<version>
 ```
 
 简写：
 ```
-efit init component 等价于 efit install efit-scaffold/component@latest
-efit init react 等价于 efit install efit-scaffold/react@latest
-efit init vue 等价于 efit install efit-scaffold/vue@latest
+iloka-fis init component 等价于 iloka-fis install rosettech/component@latest
+iloka-fis init react 等价于 iloka-fis install rosettech/react@latest
+iloka-fis init vue 等价于 iloka-fis install rosettech/vue@latest
 ```
 
 ### 默认配置选项
